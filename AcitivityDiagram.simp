@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.05" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlInitialNode" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivity" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAction" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSwimlane" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivityFinalNode" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlInitialNode" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivity" />
+        <value>16</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlControlFlow" />
+        <value>39</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComment" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDecision" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAction" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSwimlane" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommentConnector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlJoin" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivityFinalNode" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>5</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="Pb82b8507a09c415a861731ecfc805050">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di854425723619595992" cid="CMT005" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 14:22:24">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+        <background type="forward-diagonal" color="#FFBFBFBF" color2="#FFFFFFE0" />
+        <border color="#FFFFA500" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+            <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <comment>Khách hàng</comment>
+    </item>
+  </items>
+  <models>
+    <model id="p5553e5191ba940078e71f03e2b512628_219542029" name="Model 1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/06/2016 14:45:24</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-activity" id="p7317603862374de2bdabcd9740d21415_620858431" name="log-in" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,-220">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/06/2016 14:45:24</creation-date>
+          <change-date>01/09/2016 14:56:39</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di733422555519317000" cid="IN001" type="initial-node" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 14:46:08">
+            <style class="default" />
+          </item>
+          <item id="di128527091452644544" cid="A001" type="activity" name="Yêu cầu đăng nhập" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 14:48:13">
+            <style class="default" />
+          </item>
+          <item id="di262923597975142934" cid="ELEM002" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 14:50:44">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di292493285378462717" cid="AFN001" type="activity-final-node" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:44:08">
+            <style class="default" />
+          </item>
+          <item id="di940427091794464168" cid="ELEM030" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:44:18">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di552637930702098340" cid="A004" type="activity" name="Trả về giao diện đăng nhập thành công" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:49:24">
+            <style class="default" />
+          </item>
+          <item id="di594114531392664145" cid="ELEM011" type="control-flow" name="Thông tin sai" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:48:26">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di960981592402948763" cid="ELEM010" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:48:11">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di676279250872055223" cid="ELEM003" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:34:09">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di115767054268667019" cid="ELEM009" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:46:45">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di523664533891723841" cid="A002" type="activity" name="Yêu cầu nhập thông tin" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:39:52">
+            <style class="default" />
+          </item>
+          <item id="di360152688494528745" cid="DC002" type="decision" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:48:01">
+            <style class="default" />
+          </item>
+          <item id="di291471273879036397" cid="A003" type="activity" name="Nhập thông tin (Username và Password)" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:44:13">
+            <style class="default" />
+          </item>
+          <item id="di851188505413624030" cid="ELEM008" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:44:35">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di474921055296390743" cid="ACT001" type="action" name="Kiểm tra thông tin" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:45:22">
+            <style class="default" />
+          </item>
+          <item id="di408803082448661334" cid="ELEM012" type="control-flow" name="Thông tin đúng" style-class="" visibility="package" change-tracking-state="added" creator="Pb82b8507a09c415a861731ecfc805050" creation-date="01/06/2016 15:49:57">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di688370389591207357" cid="CMT008" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/09/2016 14:56:09">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFBFBFBF" color2="#FFFFFFE0" />
+              <border color="#FFBFBFBF" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Khách hàng</comment>
+          </item>
+          <item id="di246110552991869243" cid="CMT009" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/09/2016 14:56:39">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFBFBFBF" color2="#FFFFFFE0" />
+              <border color="#FFD4D4D4" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Trang chủ</comment>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di733422555519317000" iid="01a82bf4c2604e869bcbf7a8e2614b06" creation-date="01/06/2016 14:46:08" order-index="0" type="entity">
+            <layout ax="95.625" ay="-29" awidth="25" aheight="25" x="95.625" y="-29" width="25" height="25" angle="0" name-position="4,-39" />
+          </item>
+          <item id="di128527091452644544" iid="6dce05d6fbd64b7697fc5f5854b3dbcc" creation-date="01/06/2016 14:48:13" order-index="1" type="entity">
+            <layout ax="25.25" ay="61" awidth="159" aheight="25" x="25.25" y="61" width="159" height="25" angle="0" />
+          </item>
+          <item id="di262923597975142934" iid="38f25049b61247efa3eee6e8f3974a96" creation-date="01/06/2016 14:50:44" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="108" y1="-4" x2="110" y2="61" start-border-pos="0.623133087158203" end-border-pos="0.13246855345912" name-position="10,-10">
+              <points>
+                <point x="108" y="-4" />
+                <point x="109.75" y="42" />
+                <point x="110" y="61" />
+              </points>
+            </layout>
+            <relation from="di733422555519317000" from-iid="01a82bf4c2604e869bcbf7a8e2614b06" to="di128527091452644544" to-iid="6dce05d6fbd64b7697fc5f5854b3dbcc" />
+          </item>
+          <item id="di676279250872055223" iid="5b0850573fc24874b2255bb165331517" creation-date="01/06/2016 15:34:09" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="184" y1="75" x2="433" y2="77" start-border-pos="0.387225646972656" end-border-pos="0.846034867422921" name-position="10,-10">
+              <points>
+                <point x="184" y="75" />
+                <point x="433" y="77" />
+              </points>
+            </layout>
+            <relation from="di128527091452644544" from-iid="6dce05d6fbd64b7697fc5f5854b3dbcc" to="di523664533891723841" to-iid="c1269f38aa794691a63e68a83b9bc1de" />
+          </item>
+          <item id="di523664533891723841" iid="c1269f38aa794691a63e68a83b9bc1de" creation-date="01/06/2016 15:39:52" order-index="10" type="entity">
+            <layout ax="432.75" ay="60.125" awidth="191" aheight="26.75" x="432.75" y="60.125" width="191" height="26.75" angle="0" />
+          </item>
+          <item id="di291471273879036397" iid="1df8c8c84b3443fba93e917bad9038f8" creation-date="01/06/2016 15:44:13" order-index="12" type="entity">
+            <layout ax="32" ay="120" awidth="152.25" aheight="58" x="32" y="120" width="152.25" height="58" angle="0" />
+          </item>
+          <item id="di851188505413624030" iid="c986296ec8994f32afeb6fa9b60dbd19" creation-date="01/06/2016 15:44:35" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="528" y1="87" x2="184" y2="150" start-border-pos="0.625125825093055" end-border-pos="0.377334331643992" name-position="10,-10">
+              <points>
+                <point x="528" y="87" />
+                <point x="529" y="152" />
+                <point x="184" y="150" />
+              </points>
+            </layout>
+            <relation from="di523664533891723841" from-iid="c1269f38aa794691a63e68a83b9bc1de" to="di291471273879036397" to-iid="1df8c8c84b3443fba93e917bad9038f8" />
+          </item>
+          <item id="di474921055296390743" iid="121bdaf9c5194908be6970ab7c634cae" creation-date="01/06/2016 15:45:22" order-index="14" type="entity">
+            <layout ax="434" ay="193" awidth="188.5" aheight="40" x="434" y="193" width="188.5" height="40" angle="0" />
+          </item>
+          <item id="di115767054268667019" iid="2e6062313fa247f6a675944155b5e562" creation-date="01/06/2016 15:46:45" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="90" y1="178" x2="434" y2="214" start-border-pos="0.655267295597484" end-border-pos="0.86875" name-position="10,-10">
+              <points>
+                <point x="90" y="178" />
+                <point x="92.25" y="215" />
+                <point x="434" y="214" />
+              </points>
+            </layout>
+            <relation from="di291471273879036397" from-iid="1df8c8c84b3443fba93e917bad9038f8" to="di474921055296390743" to-iid="121bdaf9c5194908be6970ab7c634cae" />
+          </item>
+          <item id="di360152688494528745" iid="bda61fd1e4734e06bfe54584bf91e342" creation-date="01/06/2016 15:48:01" order-index="16" type="entity">
+            <layout ax="508.25" ay="304.125" awidth="40" aheight="35" x="508.25" y="304.125" width="40" height="35" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di960981592402948763" iid="7b2b735a253741bb9506cb6e5219fa1c" creation-date="01/06/2016 15:48:11" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="528" y1="233" x2="528" y2="304" start-border-pos="0.625331564986737" end-border-pos="0.1234375" name-position="10,-10">
+              <points>
+                <point x="528" y="233" />
+                <point x="528" y="304" />
+              </points>
+            </layout>
+            <relation from="di474921055296390743" from-iid="121bdaf9c5194908be6970ab7c634cae" to="di360152688494528745" to-iid="bda61fd1e4734e06bfe54584bf91e342" />
+          </item>
+          <item id="di594114531392664145" iid="e284f9d3ecbf4233bf47729f9b559f6f" creation-date="01/06/2016 15:48:26" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="508" y1="322" x2="69" y2="178" start-border-pos="0.872321428571429" end-border-pos="0.688679245283019" name-position="10,-10">
+              <points>
+                <point x="508" y="322" />
+                <point x="68" y="320" />
+                <point x="69" y="178" />
+              </points>
+            </layout>
+            <relation from="di360152688494528745" from-iid="bda61fd1e4734e06bfe54584bf91e342" to="di291471273879036397" to-iid="1df8c8c84b3443fba93e917bad9038f8" />
+          </item>
+          <item id="di552637930702098340" iid="4a6a041a4e6c4e95868a3ed0b9ad9045" creation-date="01/06/2016 15:49:24" order-index="19" type="entity">
+            <layout ax="449" ay="409" awidth="174.75" aheight="46" x="449" y="409" width="174.75" height="46" angle="0" />
+          </item>
+          <item id="di408803082448661334" iid="52b0846e152c4810812668ec7e7f38fe" creation-date="01/06/2016 15:49:57" order-index="20" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="529" y1="338" x2="528" y2="409" start-border-pos="0.6203125" end-border-pos="0.113018597997139" name-position="48,-1">
+              <points>
+                <point x="529" y="338" />
+                <point x="528" y="409" />
+              </points>
+            </layout>
+            <relation from="di360152688494528745" from-iid="bda61fd1e4734e06bfe54584bf91e342" to="di552637930702098340" to-iid="4a6a041a4e6c4e95868a3ed0b9ad9045" />
+          </item>
+          <item id="di292493285378462717" iid="41cdf5e4107c47f8a60848c9180975b1" creation-date="01/08/2016 17:44:08" order-index="21" type="entity">
+            <layout ax="515.75" ay="499.875" awidth="25" aheight="25" x="515.75" y="499.875" width="32.5" height="25" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di940427091794464168" iid="970d907ffdc54c5990ec101041eec62e" creation-date="01/08/2016 17:44:18" order-index="22" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="526" y1="455" x2="528" y2="500" start-border-pos="0.639842632331903" end-border-pos="0.118289184570312" name-position="10,-10">
+              <points>
+                <point x="526" y="455" />
+                <point x="528" y="500" />
+              </points>
+            </layout>
+            <relation from="di552637930702098340" from-iid="4a6a041a4e6c4e95868a3ed0b9ad9045" to="di292493285378462717" to-iid="41cdf5e4107c47f8a60848c9180975b1" />
+          </item>
+          <item id="di688370389591207357" iid="7801cfbca53f4d09a47232274ff85e08" creation-date="01/09/2016 14:56:09" order-index="23" type="entity">
+            <layout ax="38.125" ay="-116" awidth="146.125" aheight="44" x="38.125" y="-116" width="146.125" height="44" angle="0" />
+          </item>
+          <item id="di246110552991869243" iid="dd0b870618ba4b04833f0a255c800d31" creation-date="01/09/2016 14:56:39" order-index="24" type="entity">
+            <layout ax="467.375" ay="-116" awidth="140" aheight="44" x="467.375" y="-116" width="140" height="44" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-activity" id="pf64b45aa347a4723975cb5e1f297b377_976684059" name="buy-ticket" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-26,-52" zoom="0.7">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/08/2016 14:21:38</creation-date>
+          <change-date>01/08/2016 17:44:50</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di123211742229719460" cid="IN002" type="initial-node" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 14:22:21">
+            <style class="default" />
+          </item>
+          <item id="di295142633509690453" cid="A007" type="activity" name="Cung cấp thông tin chi tiết về các chuyến bay" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:14:44">
+            <style class="default" />
+          </item>
+          <item id="di193303190494500796" cid="CMT006" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 14:22:56">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFD4D4D4" color2="#FFFFFFE0" />
+              <border color="#FFFFA500" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Trang chủ</comment>
+          </item>
+          <item id="di824695315264410869" cid="CMT007" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 14:23:18">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFD4D4D4" color2="#FFFFFFE0" />
+              <border color="#FFFFA500" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Hãng hàng không</comment>
+          </item>
+          <item id="di375059054933921736" cid="A005" type="activity" name="Tìm chuyến bay" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:07:41">
+            <style class="default" />
+          </item>
+          <item id="di813356214528854083" cid="ELEM014" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:08:24">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di502019795948958016" cid="A006" type="activity" name="Kiểm tra thông tin về các chuyến bay" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:10:38">
+            <style class="default" />
+          </item>
+          <item id="di953886861781929562" cid="ELEM015" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:11:10">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di987035227622960466" cid="ELEM017" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:15:55">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di867455120998175734" cid="A008" type="activity" name="Cung cấp các lựa chọn và giá cả" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:17:25">
+            <style class="default" />
+          </item>
+          <item id="di116988727517042390" cid="ELEM018" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:17:51">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di581173753928812800" cid="A009" type="activity" name="Chọn chuyến bay" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:19:07">
+            <style class="default" />
+          </item>
+          <item id="di955372696392712858" cid="ELEM019" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:19:28">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di501192329155733372" cid="ACT002" type="action" name="Yêu cầu thanh toán" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:21:02">
+            <style class="default" />
+          </item>
+          <item id="di672324150794288852" cid="A010" type="activity" name="Thông tin chi tiết về chuyến bay" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:21:27">
+            <style class="default" />
+          </item>
+          <item id="di681479745250562809" cid="ELEM001" type="join" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:21:56">
+            <style class="default" />
+          </item>
+          <item id="di915441588148698209" cid="ELEM020" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:22:21">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di402410126968756606" cid="ELEM022" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:23:59">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di540388129966715307" cid="ELEM023" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:24:45">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di791109292250273012" cid="ELEM005" type="join" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:32:56">
+            <style class="default" />
+          </item>
+          <item id="di470253276278378148" cid="ACT004" type="action" name="Xác nhận chỗ ngồi" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:31:49">
+            <style class="default" />
+          </item>
+          <item id="di838982004815311231" cid="ELEM025" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:28:54">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di568289372519676038" cid="A011" type="activity" name="Thanh toán" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:29:05">
+            <style class="default" />
+          </item>
+          <item id="di108410247117266903" cid="ELEM026" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:29:40">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di939081156910376475" cid="ACT003" type="action" name="Xác nhận đặt vé thành công" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:30:09">
+            <style class="default" />
+          </item>
+          <item id="di480350093913361003" cid="ELEM027" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:30:51">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di765929580555123875" cid="ELEM028" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:34:42">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di580046363267702881" cid="ELEM029" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 15:35:24">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di485343455802765730" cid="AFN002" type="activity-final-node" name="buy-ticket" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:44:47">
+            <style class="default" />
+          </item>
+          <item id="di523673941583018663" cid="ELEM031" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:44:50">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di123211742229719460" iid="fe6cc28eddb345aa92cc3448433cbbfd" creation-date="01/08/2016 14:22:21" order-index="0" type="entity">
+            <layout ax="126" ay="106" awidth="25" aheight="25" x="126" y="106" width="25" height="25" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di193303190494500796" iid="a6da94fc596c474a8ef2e0477455cfd0" creation-date="01/08/2016 14:22:56" order-index="2" type="entity">
+            <layout ax="328" ay="29" awidth="140" aheight="40" x="328" y="29" width="140" height="40" angle="0" />
+          </item>
+          <item id="di824695315264410869" iid="603da486f58148a69281cca652a0d704" creation-date="01/08/2016 14:23:18" order-index="3" type="entity">
+            <layout ax="668" ay="29" awidth="140" aheight="40" x="668" y="29" width="140" height="40" angle="0" />
+          </item>
+          <item id="di375059054933921736" iid="bd1961e56ca748cfa8996ef4f6bc52ae" creation-date="01/08/2016 15:07:41" order-index="4" type="entity">
+            <layout ax="68.5" ay="168" awidth="140" aheight="25" x="68.5" y="168" width="140" height="25" angle="0" />
+          </item>
+          <item id="di813356214528854083" iid="044cfd968dad4eadac2036642c9ebf75" creation-date="01/08/2016 15:08:24" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="138" y1="131" x2="138" y2="168" start-border-pos="0.63" end-border-pos="0.124107142857143" name-position="10,-10">
+              <points>
+                <point x="138" y="131" />
+                <point x="138" y="168" />
+              </points>
+            </layout>
+            <relation from="di123211742229719460" from-iid="fe6cc28eddb345aa92cc3448433cbbfd" to="di375059054933921736" to-iid="bd1961e56ca748cfa8996ef4f6bc52ae" />
+          </item>
+          <item id="di502019795948958016" iid="e882c8325bfe4f9a9efade47b42834f3" creation-date="01/08/2016 15:10:38" order-index="6" type="entity">
+            <layout ax="305" ay="206.25" awidth="161" aheight="40" x="305" y="206.25" width="161" height="40" angle="0" />
+          </item>
+          <item id="di953886861781929562" iid="98612060a0bd4d61be596234337e96bf" creation-date="01/08/2016 15:11:10" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="138" y1="193" x2="305" y2="228" start-border-pos="0.626348032270159" end-border-pos="0.866396808624268" name-position="13,-8">
+              <points>
+                <point x="138" y="193" />
+                <point x="137" y="231.25" />
+                <point x="305" y="228" />
+              </points>
+            </layout>
+            <relation from="di375059054933921736" from-iid="bd1961e56ca748cfa8996ef4f6bc52ae" to="di502019795948958016" to-iid="e882c8325bfe4f9a9efade47b42834f3" />
+          </item>
+          <item id="di854425723619595992" iid="8c2dea91b6a44906a22813351c9c0f05" creation-date="01/08/2016 14:22:24" order-index="1" type="entity">
+            <layout ax="65.5" ay="29" awidth="140" aheight="40" x="65.5" y="29" width="140" height="40" angle="0" />
+          </item>
+          <item id="di295142633509690453" iid="f7202841baa2459db4b1f1d35929c1e6" creation-date="01/08/2016 15:14:44" order-index="8" type="entity">
+            <layout ax="609" ay="259.25" awidth="226" aheight="50.5" x="609" y="259.25" width="226" height="50.5" angle="0" />
+          </item>
+          <item id="di987035227622960466" iid="999b9ab195644640adbc09f673e183ce" creation-date="01/08/2016 15:15:55" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="386" y1="246" x2="609" y2="283" start-border-pos="0.624788272454872" end-border-pos="0.882455051535427" name-position="10,-10">
+              <points>
+                <point x="386" y="246" />
+                <point x="385" y="280.75" />
+                <point x="609" y="283" />
+              </points>
+            </layout>
+            <relation from="di502019795948958016" from-iid="e882c8325bfe4f9a9efade47b42834f3" to="di295142633509690453" to-iid="f7202841baa2459db4b1f1d35929c1e6" />
+          </item>
+          <item id="di867455120998175734" iid="fee339010f464b5da903e3000273790f" creation-date="01/08/2016 15:17:25" order-index="10" type="entity">
+            <layout ax="305" ay="333.5" awidth="161" aheight="50" x="305" y="333.5" width="161" height="50" angle="0" />
+          </item>
+          <item id="di116988727517042390" iid="553ecfd3b96f4505b51b9f5442c38240" creation-date="01/08/2016 15:17:51" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="726" y1="310" x2="466" y2="360" start-border-pos="0.620575221238938" end-border-pos="0.3825" name-position="10,-10">
+              <points>
+                <point x="726" y="310" />
+                <point x="727" y="358" />
+                <point x="466" y="360" />
+              </points>
+            </layout>
+            <relation from="di295142633509690453" from-iid="f7202841baa2459db4b1f1d35929c1e6" to="di867455120998175734" to-iid="fee339010f464b5da903e3000273790f" />
+          </item>
+          <item id="di581173753928812800" iid="624702fe82644faa91743d0265988c52" creation-date="01/08/2016 15:19:07" order-index="12" type="entity">
+            <layout ax="68.5" ay="398" awidth="140" aheight="25" x="68.5" y="398" width="140" height="25" angle="0" />
+          </item>
+          <item id="di955372696392712858" iid="38ac37bf7ac44edfb98bc00eb198c3f4" creation-date="01/08/2016 15:19:28" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="379" y1="384" x2="208" y2="413" start-border-pos="0.635093167701863" end-border-pos="0.4" name-position="12,-6">
+              <points>
+                <point x="379" y="384" />
+                <point x="378" y="411" />
+                <point x="208" y="413" />
+              </points>
+            </layout>
+            <relation from="di867455120998175734" from-iid="fee339010f464b5da903e3000273790f" to="di581173753928812800" to-iid="624702fe82644faa91743d0265988c52" />
+          </item>
+          <item id="di501192329155733372" iid="18d26e1d1dbe4212b1814527ecaddc79" creation-date="01/08/2016 15:21:02" order-index="14" type="entity">
+            <layout ax="248" ay="552" awidth="102" aheight="50" x="248" y="552" width="102" height="50" angle="0" />
+          </item>
+          <item id="di672324150794288852" iid="de96b671c26d40e789055218846e60a9" creation-date="01/08/2016 15:21:27" order-index="15" type="entity">
+            <layout ax="421" ay="552" awidth="140" aheight="50" x="421" y="552" width="140" height="50" angle="0" />
+          </item>
+          <item id="di681479745250562809" iid="5a4f16bae9e54a05ac859bfd0105222a" creation-date="01/08/2016 15:21:56" order-index="16" type="entity">
+            <layout ax="350" ay="487.75" awidth="71" aheight="10" x="350" y="487.75" width="71" height="10" angle="0" />
+          </item>
+          <item id="di915441588148698209" iid="f7a27d319d28467cb24d53b453f2945b" creation-date="01/08/2016 15:22:21" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="126" y1="423" x2="388" y2="488" start-border-pos="0.647321428571429" end-border-pos="0.133802816901408" name-position="25,-18">
+              <points>
+                <point x="126" y="423" />
+                <point x="126" y="456.75" />
+                <point x="388" y="458" />
+                <point x="388" y="488" />
+              </points>
+            </layout>
+            <relation from="di581173753928812800" from-iid="624702fe82644faa91743d0265988c52" to="di681479745250562809" to-iid="5a4f16bae9e54a05ac859bfd0105222a" />
+          </item>
+          <item id="di402410126968756606" iid="779dc8e23c04495aa3ca8227b5fa9ed5" creation-date="01/08/2016 15:23:59" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="381" y1="498" x2="305" y2="552" start-border-pos="0.642575760962258" end-border-pos="0.139705882352941" name-position="16,-10">
+              <points>
+                <point x="381" y="498" />
+                <point x="381" y="518" />
+                <point x="305" y="518" />
+                <point x="305" y="552" />
+              </points>
+            </layout>
+            <relation from="di681479745250562809" from-iid="5a4f16bae9e54a05ac859bfd0105222a" to="di501192329155733372" to-iid="18d26e1d1dbe4212b1814527ecaddc79" />
+          </item>
+          <item id="di540388129966715307" iid="9ef84065ee1d456eb72f93e44378e357" creation-date="01/08/2016 15:24:45" order-index="19" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="393" y1="498" x2="490" y2="552" start-border-pos="0.598412527164943" end-border-pos="0.123214285714286" name-position="10,-10">
+              <points>
+                <point x="393" y="498" />
+                <point x="393" y="517" />
+                <point x="490" y="519" />
+                <point x="490" y="552" />
+              </points>
+            </layout>
+            <relation from="di681479745250562809" from-iid="5a4f16bae9e54a05ac859bfd0105222a" to="di672324150794288852" to-iid="de96b671c26d40e789055218846e60a9" />
+          </item>
+          <item id="di838982004815311231" iid="7bc82c0acb4f4ec580c0e7dcc5fecab3" creation-date="01/08/2016 15:28:54" order-index="22" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="531" y1="602" x2="699" y2="708" start-border-pos="0.554116712297712" end-border-pos="0.125816993464052" name-position="10,-10">
+              <points>
+                <point x="531" y="602" />
+                <point x="699" y="708" />
+              </points>
+            </layout>
+            <relation from="di672324150794288852" from-iid="de96b671c26d40e789055218846e60a9" to="di470253276278378148" to-iid="273f25386c9441f6a973e07045419142" />
+          </item>
+          <item id="di568289372519676038" iid="c0454e6c526744bea96d647b7798e9f1" creation-date="01/08/2016 15:29:05" order-index="23" type="entity">
+            <layout ax="87.5" ay="733.25" awidth="102" aheight="25" x="87.5" y="733.25" width="102" height="25" angle="0" />
+          </item>
+          <item id="di108410247117266903" iid="3ff2b8f1b0cb4c6d81a237753f4f35c6" creation-date="01/08/2016 15:29:40" order-index="24" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="295" y1="602" x2="138" y2="733" start-border-pos="0.634803921568627" end-border-pos="0.123774509803922" name-position="10,-10">
+              <points>
+                <point x="295" y="602" />
+                <point x="138" y="733" />
+              </points>
+            </layout>
+            <relation from="di501192329155733372" from-iid="18d26e1d1dbe4212b1814527ecaddc79" to="di568289372519676038" to-iid="c0454e6c526744bea96d647b7798e9f1" />
+          </item>
+          <item id="di939081156910376475" iid="b7ba7490e9a24a389046d6d226f2dd1a" creation-date="01/08/2016 15:30:09" order-index="25" type="entity">
+            <layout ax="346" ay="895.75" awidth="120" aheight="50" x="346" y="895.75" width="120" height="50" angle="0" />
+          </item>
+          <item id="di480350093913361003" iid="c82c032cf4364d2385a4b989159464de" creation-date="01/08/2016 15:30:51" order-index="26" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="126" y1="758" x2="382" y2="830" start-border-pos="0.655637254901961" end-border-pos="0.0704225352112676" name-position="10,-10">
+              <points>
+                <point x="126" y="758" />
+                <point x="126" y="797" />
+                <point x="381" y="798" />
+                <point x="382" y="830" />
+              </points>
+            </layout>
+            <relation from="di568289372519676038" from-iid="c0454e6c526744bea96d647b7798e9f1" to="di791109292250273012" to-iid="07f1bf749cce48228d15ec995252217a" />
+          </item>
+          <item id="di470253276278378148" iid="273f25386c9441f6a973e07045419142" creation-date="01/08/2016 15:31:49" order-index="27" type="entity">
+            <layout ax="622" ay="708.25" awidth="153" aheight="50" x="622" y="708.25" width="153" height="50" angle="0" />
+          </item>
+          <item id="di791109292250273012" iid="07f1bf749cce48228d15ec995252217a" creation-date="01/08/2016 15:32:56" order-index="28" type="entity">
+            <layout ax="362.5" ay="830" awidth="71" aheight="10" x="362.5" y="830" width="71" height="10" angle="0" />
+          </item>
+          <item id="di765929580555123875" iid="0f1c0b6bd22d4623a3d564fd737382ba" creation-date="01/08/2016 15:34:42" order-index="29" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="704" y1="758" x2="411" y2="830" start-border-pos="0.616013071895425" end-border-pos="0.170774647887324" name-position="10,-10">
+              <points>
+                <point x="704" y="758" />
+                <point x="703" y="801" />
+                <point x="410" y="801" />
+                <point x="411" y="830" />
+              </points>
+            </layout>
+            <relation from="di470253276278378148" from-iid="273f25386c9441f6a973e07045419142" to="di791109292250273012" to-iid="07f1bf749cce48228d15ec995252217a" />
+          </item>
+          <item id="di580046363267702881" iid="4271cb39c1be41b1aba050da97b0e45c" creation-date="01/08/2016 15:35:24" order-index="30" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="398" y1="840" x2="396" y2="896" start-border-pos="0.625577255034111" end-border-pos="0.104166666666667" name-position="10,-10">
+              <points>
+                <point x="398" y="840" />
+                <point x="396" y="896" />
+              </points>
+            </layout>
+            <relation from="di791109292250273012" from-iid="07f1bf749cce48228d15ec995252217a" to="di939081156910376475" to-iid="b7ba7490e9a24a389046d6d226f2dd1a" />
+          </item>
+          <item id="di485343455802765730" iid="ea42aefb790d44c5aad2ad2600fb8108" creation-date="01/08/2016 17:44:47" order-index="31" type="entity">
+            <layout ax="385.5" ay="1001.5" awidth="25" aheight="25" x="385.5" y="1001.5" width="25" height="25" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di523673941583018663" iid="d3d2fe244e71442d8b9428696a4a6bc2" creation-date="01/08/2016 17:44:50" order-index="32" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="400" y1="946" x2="398" y2="1002" start-border-pos="0.6375" end-border-pos="0.128529357910156" name-position="10,-10">
+              <points>
+                <point x="400" y="946" />
+                <point x="398" y="1002" />
+              </points>
+            </layout>
+            <relation from="di939081156910376475" from-iid="b7ba7490e9a24a389046d6d226f2dd1a" to="di485343455802765730" to-iid="ea42aefb790d44c5aad2ad2600fb8108" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-activity" id="pcafe093b0d484fecb2ef9657158a0f44_865122084" name="sign-up" order-index="3" overview-order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-32,66">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/08/2016 16:53:42</creation-date>
+          <change-date>01/09/2016 15:08:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di341301767422643961" cid="IN003" type="initial-node" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:43:47">
+            <style class="default" />
+          </item>
+          <item id="di398274943326745575" cid="A012" type="activity" name="Yêu cầu đăng ký" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:45:06">
+            <style class="default" />
+          </item>
+          <item id="di736228158975937964" cid="ELEM032" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:45:33">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di562646651955103799" cid="A013" type="activity" name="Hiển thị form đăng ký và yêu cầu nhập thông tin" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:45:43">
+            <style class="default" />
+          </item>
+          <item id="di865257406744307474" cid="ELEM033" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:47:23">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di504644620930658651" cid="A014" type="activity" name="Nhập thông tin" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:48:09">
+            <style class="default" />
+          </item>
+          <item id="di803450787805505214" cid="ELEM034" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:48:44">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di252975857387817595" cid="DC003" type="decision" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:50:08">
+            <style class="default" />
+          </item>
+          <item id="di653568504482117176" cid="ELEM035" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:50:19">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di196225772922612781" cid="A015" type="activity" name="Thông báo đăng ký thành công" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:51:38">
+            <style class="default" />
+          </item>
+          <item id="di210889535729843659" cid="ELEM036" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:52:50">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di549103795541922798" cid="ELEM037" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 17:53:34">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di532796003747374379" cid="AFN003" type="activity-final-node" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 18:02:58">
+            <style class="default" />
+          </item>
+          <item id="di195223967627127445" cid="ELEM038" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/08/2016 18:03:04">
+            <style class="default" />
+            <control-flow guard="" />
+          </item>
+          <item id="di160310236487301458" cid="CMT010" type="comment" name="sign-up" style-class="" visibility="package" change-tracking-state="added" creation-date="01/09/2016 14:57:21">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFAAAAAA" color2="#FFFFFFE0" />
+              <border color="#FFBFBFBF" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Khách hàng tiềm năng</comment>
+          </item>
+          <item id="di475897426859348236" cid="CMT011" type="comment" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="01/09/2016 15:01:51">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFAAAAAA" color2="#FFFFFFE0" />
+              <border color="#FFFFA500" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9" name-use-defaults="false" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-use-defaults="false" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-use-defaults="false" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-use-defaults="false" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-use-defaults="false" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Trang chủ</comment>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di341301767422643961" iid="3adb263e24cc45f39c86e3918e5128ba" creation-date="01/08/2016 17:43:47" order-index="0" type="entity">
+            <layout ax="112" ay="-34" awidth="25" aheight="25" x="112" y="-34" width="25" height="25" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di398274943326745575" iid="c41c89029c774b318ed7b7bd6fac3c3f" creation-date="01/08/2016 17:45:06" order-index="1" type="entity">
+            <layout ax="55.5" ay="72" awidth="138" aheight="37" x="55.5" y="72" width="138" height="37" angle="0" />
+          </item>
+          <item id="di736228158975937964" iid="d351fc4c7be44c158d6a85033c3de4f2" creation-date="01/08/2016 17:45:33" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="124" y1="-9" x2="124" y2="72" start-border-pos="0.63" end-border-pos="0.124094202898551" name-position="10,-10">
+              <points>
+                <point x="124" y="-9" />
+                <point x="124" y="72" />
+              </points>
+            </layout>
+            <relation from="di341301767422643961" from-iid="3adb263e24cc45f39c86e3918e5128ba" to="di398274943326745575" to-iid="c41c89029c774b318ed7b7bd6fac3c3f" />
+          </item>
+          <item id="di562646651955103799" iid="8c5dd72e8fd948358966e14f440acb4a" creation-date="01/08/2016 17:45:43" order-index="3" type="entity">
+            <layout ax="347" ay="102" awidth="150" aheight="70" x="347" y="102" width="150" height="70" angle="0" />
+          </item>
+          <item id="di865257406744307474" iid="a01ec8a32a3e41f686ddbe338a903e4d" creation-date="01/08/2016 17:47:23" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="123" y1="109" x2="347" y2="140" start-border-pos="0.627717391304348" end-border-pos="0.864285714285714" name-position="10,-10">
+              <points>
+                <point x="123" y="109" />
+                <point x="123" y="140" />
+                <point x="347" y="140" />
+              </points>
+            </layout>
+            <relation from="di398274943326745575" from-iid="c41c89029c774b318ed7b7bd6fac3c3f" to="di562646651955103799" to-iid="8c5dd72e8fd948358966e14f440acb4a" />
+          </item>
+          <item id="di504644620930658651" iid="98901a01832a4e5babdd20a422bac479" creation-date="01/08/2016 17:48:09" order-index="5" type="entity">
+            <layout ax="61" ay="210" awidth="132.5" aheight="37" x="61" y="210" width="132.5" height="37" angle="0" />
+          </item>
+          <item id="di803450787805505214" iid="0ea48ff194e74bbfbcb870ce2de1d6f7" creation-date="01/08/2016 17:48:44" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="419" y1="172" x2="194" y2="233" start-border-pos="0.63" end-border-pos="0.405405405405405" name-position="-5,-22">
+              <points>
+                <point x="419" y="172" />
+                <point x="420" y="233" />
+                <point x="194" y="233" />
+              </points>
+            </layout>
+            <relation from="di562646651955103799" from-iid="8c5dd72e8fd948358966e14f440acb4a" to="di504644620930658651" to-iid="98901a01832a4e5babdd20a422bac479" />
+          </item>
+          <item id="di252975857387817595" iid="f09f8cad4fa3414f9ca672bc42b57740" creation-date="01/08/2016 17:50:08" order-index="7" type="entity">
+            <layout ax="402" ay="312" awidth="40" aheight="37" x="402" y="312" width="40" height="37" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di653568504482117176" iid="3d58f6d8959d4d728652408042f82f8a" creation-date="01/08/2016 17:50:19" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="122" y1="247" x2="422" y2="312" start-border-pos="0.634905660377359" end-border-pos="0.125" name-position="10,-10">
+              <points>
+                <point x="122" y="247" />
+                <point x="123" y="282" />
+                <point x="421" y="278" />
+                <point x="422" y="312" />
+              </points>
+            </layout>
+            <relation from="di504644620930658651" from-iid="98901a01832a4e5babdd20a422bac479" to="di252975857387817595" to-iid="f09f8cad4fa3414f9ca672bc42b57740" />
+          </item>
+          <item id="di196225772922612781" iid="05b95ed7cea04c55b2688acecf2f448c" creation-date="01/08/2016 17:51:38" order-index="9" type="entity">
+            <layout ax="364.5" ay="420" awidth="115" aheight="50" x="364.5" y="420" width="115" height="50" angle="0" />
+          </item>
+          <item id="di210889535729843659" iid="f0653dc89f4246e8afe8f6a0071195ab" creation-date="01/08/2016 17:52:50" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="403" y1="329" x2="61" y2="229" start-border-pos="0.885135135135135" end-border-pos="0.871621621621622" name-position="10,-10">
+              <points>
+                <point x="403" y="329" />
+                <point x="14" y="331" />
+                <point x="12" y="229" />
+                <point x="61" y="229" />
+              </points>
+            </layout>
+            <relation from="di252975857387817595" from-iid="f09f8cad4fa3414f9ca672bc42b57740" to="di504644620930658651" to-iid="98901a01832a4e5babdd20a422bac479" />
+          </item>
+          <item id="di549103795541922798" iid="ac12cb4220bd422eb430835a4ccda13c" creation-date="01/08/2016 17:53:34" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="422" y1="349" x2="422" y2="420" start-border-pos="0.625" end-border-pos="0.125" name-position="10,-10">
+              <points>
+                <point x="422" y="349" />
+                <point x="422" y="420" />
+              </points>
+            </layout>
+            <relation from="di252975857387817595" from-iid="f09f8cad4fa3414f9ca672bc42b57740" to="di196225772922612781" to-iid="05b95ed7cea04c55b2688acecf2f448c" />
+          </item>
+          <item id="di532796003747374379" iid="94b1b374404b4d7fa9335b6fb2992562" creation-date="01/08/2016 18:02:58" order-index="12" type="entity">
+            <layout ax="409.5" ay="516" awidth="25" aheight="25" x="409.5" y="516" width="32.5" height="25" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di195223967627127445" iid="aa6063d91b7240d7b0da493290ede073" creation-date="01/08/2016 18:03:04" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="422" y1="470" x2="422" y2="516" start-border-pos="0.625" end-border-pos="0.125" name-position="10,-10">
+              <points>
+                <point x="422" y="470" />
+                <point x="422" y="516" />
+              </points>
+            </layout>
+            <relation from="di196225772922612781" from-iid="05b95ed7cea04c55b2688acecf2f448c" to="di532796003747374379" to-iid="94b1b374404b4d7fa9335b6fb2992562" />
+          </item>
+          <item id="di160310236487301458" iid="58ec0c4aca2c4e0982560675e6d9f4c2" creation-date="01/09/2016 14:57:21" order-index="14" type="entity">
+            <layout ax="55.5" ay="-133.5" awidth="150" aheight="37" x="55.5" y="-133.5" width="150" height="37" angle="0" />
+          </item>
+          <item id="di475897426859348236" iid="25eb8af7f3634789ad0296f41951db9f" creation-date="01/09/2016 15:01:51" order-index="15" type="entity">
+            <layout ax="359" ay="-133.5" awidth="138" aheight="37" x="359" y="-133.5" width="138" height="37" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-activity" id="pf91d8463dd9544a9ba315847ecc26896_655038879" name="payment" order-index="4" overview-order-index="2" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/08/2016 18:03:46</creation-date>
+          <change-date>01/08/2016 18:03:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
